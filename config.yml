@@ -1,0 +1,31 @@
+baseurl: "http://blog.network2501.com/"
+Author: "Network2501"
+languageCode: "en-au"
+MetaDataFormat:  "yaml"
+themesDir: "/home/pete/"
+theme: "hyde-x"
+paginate:  10
+pygmentsstyle: "gruvbox"
+pygmentsuseclasses: true
+
+
+footnoteReturnLinkContents: "↩"
+topline: "few words about your site"
+menu:
+  main:
+      - Name: "Categories"
+        Weight: -100
+        URL: "/categories/"
+      - Name: "Tags"
+        Weight: -90
+        URL: "/tags/"
+
+permalinks:
+  post: /:year/:month/:title/
+taxonomoies:
+  category = "categories"
+params:
+  hideReadingTime: true
+  theme: "theme-base-0a"
+  home: "Home"
+  related_content_limit: 3

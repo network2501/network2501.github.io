@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>d3.chart.sankey (product demo)</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//cdn.rawgit.com/newrelic-forks/d3-plugins-sankey/master/sankey.js"></script>
+    <script src="//cdn.rawgit.com/misoproject/d3.chart/master/d3.chart.min.js"></script>
+    <script src="//cdn.rawgit.com/q-m/d3.chart.sankey/master/d3.chart.sankey.min.js"></script>
+    <style>
+      body {
+        padding: 10px;
+        min-width: 800px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      #chart {
+        height: 1300px;
+        font: 13px sans-serif;
+      }
+      .node rect {
+        fill-opacity: .9;
+        shape-rendering: crispEdges;
+        stroke-width: 0;
+      }
+      .node text {
+        text-shadow: 0 1px 0 #fff;
+      }
+      .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart"></div>
+
+    <script>
+      var colors = {
+
+          "shinova":          "#1ffdff",
+          "nc-150":          "#1ffdff",
+          "tar'cah":             "#ff5f25",
+          "veil":          "#1ffdff",
+          "krillou":           "#fffa15",
+          "jericho":           "#fffa15",
+          "fujin":             "#ff5f25",
+          "jn'dur":          "#1ffdff",
+          "tempest":             "#ff5f25",
+          "yoth-hola":             "#ff5f25",
+          "razor_vi":          "#1ffdff",
+          "mist_star":          "#1ffdff",
+          "proxymar":          "#1ffdff",
+          "oran":           "#fffa15",
+          "kada_veni":           "#fffa15",
+          "warcker":             "#ff5f25",
+          "trireme":          "#1ffdff",
+          "cinnri":             "#ff5f25",
+          "phoenix":          "#1ffdff",
+          "buhloo":             "#ff5f25",
+          "czar":          "#1ffdff",
+          "havoc":           "#fffa15",
+          "giest":          "#1ffdff",
+          "juggernaut":           "#fffa15",
+          "tillat'or":             "#ff5f25",
+          "elyon":             "#ff5f25",
+          "ogon":           "#fffa15",
+          "vuxine":          "#1ffdff",
+          "proturius":           "#fffa15",
+          "xaniea":           "#fffa15",
+          "arietis":          "#1ffdff",
+          "atlas":           "#fffa15",
+          "essin":          "#1ffdff",
+          "ex04239":           "#fffa15",
+          "aurora":             "#ff5f25",
+          "von_braun":           "#fffa15",
+          "gorthaur":             "#ff5f25",
+          "heechi":             "#ff5f25",
+          "prime_x":           "#fffa15",
+          "sakura":           "#fffa15",
+          "van-vith":             "#ff5f25",
+          "zephyr":           "#fffa15",
+          "baqlor":             "#ff5f25",
+          "502-q8":          "#1ffdff",
+          "dragonfly":             "#ff5f25",
+          "hime":           "#fffa15",
+          "hunter":             "#ff5f25",
+          "gladius":          "#1ffdff",
+          "lokie":           "#fffa15",
+          "barret":             "#ff5f25",
+          "saber":             "#ff5f25",
+          "valkyrie":          "#1ffdff",
+          "proteus":           "#fffa15",
+          "yigothu":          "#1ffdff",
+          "torrent":             "#ff5f25",
+          "orion":             "#ff5f25",
+          "exarch":          "#1ffdff",
+          "njörun":          "#1ffdff",
+          "boxer":             "#ff5f25",
+          "sonah":           "#fffa15",
+          "corsair":             "#ff5f25",
+          "antioch":           "#fffa15",
+          "uhb":             "#ff5f25",
+          "trinity":           "#fffa15",
+          "wraith":             "#ff5f25",
+          "x-81":          "#1ffdff",
+          "scuuxun":          "#1ffdff",
+          "shogun":           "#fffa15",
+          "nc-271":          "#1ffdff",
+          "predator":           "#fffa15",
+          "lorilou":             "#ff5f25",
+          "ab8/klyn":             "#ff5f25",
+          "polaris":          "#1ffdff",
+          "icarus":           "#fffa15",
+
+            'fallback':         '#9f9fa3'
+
+
+
+        };
+      d3.json("product.json", function(error, json) {
+        var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
+        chart
+          .name(label)
+          .colorNodes(function(name, node) {
+            return color(node, 1) || colors.fallback;
+          })
+          .colorLinks(function(link) {
+            return color(link.source, 4) || color(link.target, 1) || colors.fallback;
+          })
+          .nodeWidth(15)
+          .nodePadding(10)
+          .spread(true)
+          .iterations(0)
+          .draw(json);
+        function label(node) {
+          return node.name.replace(/\s*\(.*?\)$/, '');
+        }
+        function color(node, depth) {
+          var id = node.id.replace(/(_score)?(_\d+)?$/, '');
+          if (colors[id]) {
+            return colors[id];
+          } else if (depth > 0 && node.targetLinks && node.targetLinks.length == 1) {
+            return color(node.targetLinks[0].source, depth-1);
+          } else {
+            return null;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

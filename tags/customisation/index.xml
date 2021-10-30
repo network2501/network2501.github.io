@@ -13,8 +13,7 @@
       <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://network2501.github.io/posts/hacked-up-hugo-theme/</guid>
-      <description>This site currently uses the Hyde-X theme with some modifcations. After dabbling with CSS here&amp;rsquo;s a few changes I made to suit my wants and needs.
- Sidebar and content background same colour Custom colour scheme highlightjs Gruvbox colour scheme Categories and Tags navigation pages (with links in side bar) Round avatar Reduce hight of post listing on main page  All these changes were organic as I learnt more about Hugo and CSS but I wanted to save the theme from my own mistakes.</description>
+      <description>This site currently uses the Hyde-X theme with some modifcations.</description>
     </item>
     
   </channel>

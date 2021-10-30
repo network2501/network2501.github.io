@@ -13,7 +13,7 @@
       <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>http://network2501.github.io/posts/first-time-cacti-install-on-ubuntu-12.04/</guid>
-      <description>Networks are great when they work but when they don&amp;rsquo;t, how do you know you&amp;rsquo;ve fixed things properly? How are you going to be sure that everything is back to normal? You can do this with graphs and you can do it relatively cheaply with an application called Cacti. So today I&amp;rsquo;m going to show you just how easy it is to get Cacti up and running on Ubuntu server. First you&amp;rsquo;ll need to download Cacti from your local repository.</description>
+      <description>Networks are great when they work but when they don&amp;rsquo;t, how do you know you&amp;rsquo;ve fixed things properly?</description>
     </item>
     
   </channel>

@@ -33,11 +33,7 @@
     
 
       <p>
-        I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.
-Jump into the shell.
-root&gt; start shell Make a folder to mount your FAT16/32 USB drive, then mount it.
-root&gt; start shell root@:RE:0% mkdir /var/tmp/usb root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb Jump back to the CLI and install your new Junos.
-root&gt; start shell root@:RE:0% cli {master:0} root&gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.
+        I have a Juniper EX2200c switch that needs upgrading.
 
         <a href="/posts/junos-ex-switch-upgrade-via-usb/">Junos EX Switch Upgrade via USB full article</a>
       </p>
@@ -54,7 +50,7 @@ root&gt; start shell root@:RE:0% cli {master:0} root&gt; request system software
     
 
       <p>
-        Networks are great when they work but when they don&rsquo;t, how do you know you&rsquo;ve fixed things properly? How are you going to be sure that everything is back to normal? You can do this with graphs and you can do it relatively cheaply with an application called Cacti. So today I&rsquo;m going to show you just how easy it is to get Cacti up and running on Ubuntu server. First you&rsquo;ll need to download Cacti from your local repository.
+        Networks are great when they work but when they don&rsquo;t, how do you know you&rsquo;ve fixed things properly?
 
         <a href="/posts/first-time-cacti-install-on-ubuntu-12.04/">First time Cacti install on Ubuntu 12.04 full article</a>
       </p>

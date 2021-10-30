@@ -13,11 +13,7 @@
       <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>http://network2501.github.io/posts/junos-ex-switch-upgrade-via-usb/</guid>
-      <description>I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.
-Jump into the shell.
-root&amp;gt; start shell Make a folder to mount your FAT16/32 USB drive, then mount it.
-root&amp;gt; start shell root@:RE:0% mkdir /var/tmp/usb root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb Jump back to the CLI and install your new Junos.
-root&amp;gt; start shell root@:RE:0% cli {master:0} root&amp;gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.</description>
+      <description>I have a Juniper EX2200c switch that needs upgrading.</description>
     </item>
     
   </channel>

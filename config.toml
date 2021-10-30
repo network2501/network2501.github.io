@@ -4,6 +4,7 @@ title = "network2501"
 theme = "accessible-minimalism"
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
+summaryLength = 0
 
 [menu]
   [[menu.main]]

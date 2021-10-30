@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seos on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/seos/</link>
+    <description>Recent content in seos on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Tue, 27 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/seos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cisco And Redback Link Aggregation</title>
+      <link>http://network2501.github.io/posts/cisco-and-redback-link-aggregation/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/cisco-and-redback-link-aggregation/</guid>
+      <description>Aggregating links is a normal task of any networker. Here&amp;rsquo;s how you can aggregate 4 links between a Redback SEOS and Cisco IOS device.
+config t interface GigabitEthernet1/1 description Po1 - redback01:1/1 channel-group 1 mode on interface GigabitEthernet1/2 description Po1 - redback01:1/2 channel-group 1 mode on interface GigabitEthernet1/3 description Po1 - redback01:1/3 channel-group 1 mode on interface GigabitEthernet1/4 description Po1 - redback01:1/4 channel-group 1 mode on interface Port-channel1 description 4Gbps LAG redback01:lg-cisco01 ip address 192.</description>
+    </item>
+    
+  </channel>
+</rss>

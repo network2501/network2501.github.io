@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-au" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="alternate" type="application/rss+xml" href="http://network2501.github.io/posts/index.xml" title="Accessible Minimalism" />
+    
+    
+    <title>Accessible Minimalism | Posts</title>
+    <style type="text/css">
+  body {
+    font-size: 150%;
+    font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+</style>
+
+</head>
+<body><p><a href="#nav-menu">Menu</a></p>
+
+
+
+
+<h1>Posts</h1>
+
+
+
+    <h3>
+      <a href="/posts/hacked-up-hugo-theme/">Hacked up Hugo theme</a>
+    </h3>
+
+    
+    
+
+      <p>
+        This site currently uses the Hyde-X theme with some modifcations. After dabbling with CSS here&rsquo;s a few changes I made to suit my wants and needs.
+ Sidebar and content background same colour Custom colour scheme highlightjs Gruvbox colour scheme Categories and Tags navigation pages (with links in side bar) Round avatar Reduce hight of post listing on main page  All these changes were organic as I learnt more about Hugo and CSS but I wanted to save the theme from my own mistakes.
+
+        <a href="/posts/hacked-up-hugo-theme/">Hacked up Hugo theme full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/wordpress-to-hugo/">Wordpress to Hugo</a>
+    </h3>
+
+    
+    
+
+      <p>
+        The decision to move away from Wordpress was easy. It cost too much and the writing interface got in the way. Queue the discovery of static site generators. Hugo did what I needed and AWS S3 meant I didn&rsquo;t have to run a server.
+So what is Hugo?
+ Hugo is a static HTML and CSS website generator written in Go.
+ The biggest selling point for me was Hugo is single blob with no external dependencies.
+
+        <a href="/posts/wordpress-to-hugo/">Wordpress to Hugo full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/cisco-and-redback-link-aggregation/">Cisco And Redback Link Aggregation</a>
+    </h3>
+
+    
+    
+
+      <p>
+        Aggregating links is a normal task of any networker. Here&rsquo;s how you can aggregate 4 links between a Redback SEOS and Cisco IOS device.
+config t interface GigabitEthernet1/1 description Po1 - redback01:1/1 channel-group 1 mode on interface GigabitEthernet1/2 description Po1 - redback01:1/2 channel-group 1 mode on interface GigabitEthernet1/3 description Po1 - redback01:1/3 channel-group 1 mode on interface GigabitEthernet1/4 description Po1 - redback01:1/4 channel-group 1 mode on interface Port-channel1 description 4Gbps LAG redback01:lg-cisco01 ip address 192.
+
+        <a href="/posts/cisco-and-redback-link-aggregation/">Cisco And Redback Link Aggregation full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/qos-calculator/">QoS Calculator</a>
+    </h3>
+
+    
+    
+
+      <p>
+        A while back I was dealing with QoS topics on an almost daily basis. A big thanks to NetContractor for this table but it needed some tweaks.
+Change requirements;
+ Larger QoS range Column for product reference Scalable printing size  Sadly WordPress doesn&rsquo;t support SVG files natively so a jpg preview will have to make do. Download the friendly A3 pdf here or grab the excel file here to customise your own QoS calculator.
+
+        <a href="/posts/qos-calculator/">QoS Calculator full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/alternative-to-right-click-paste/">Alternative to right click paste</a>
+    </h3>
+
+    
+    
+
+      <p>
+        Before computers were the norm people would literally cut out articles they wanted and paste them onto paper. For the newer generations this must sounds archaic but my first face swap was in grade 1 cutting out peoples faces from magazines and pasting them onto my own crayon drawn stick figures.
+For years I&rsquo;d used teraterm or putty and later settled on SecureCRT as my terminal application of choice. Right click was my default method for pasting until a colleague accidentally misclicked and was stung by a copied line of &ldquo;reload&rdquo;.
+
+        <a href="/posts/alternative-to-right-click-paste/">Alternative to right click paste full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/vsrx-as-a-router/">vSRX as a router</a>
+    </h3>
+
+    
+    
+
+      <p>
+        The SRX is a stateful firewall but I want to use the vSRX as a router for study. I intend to configure IPv6, MPLS and ISIS so a few changes need to be made.
+set security forwarding-options family inet6 mode packet-based set security forwarding-options family mpls mode packet-based set security forwarding-options family iso mode packet-based If the above wasn&rsquo;t configured even with all the security configuration remove the stateful process of the firewall would drop traffic.
+
+        <a href="/posts/vsrx-as-a-router/">vSRX as a router full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/junos-ex-switch-upgrade-via-usb/">Junos EX Switch Upgrade via USB</a>
+    </h3>
+
+    
+    
+
+      <p>
+        I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.
+Jump into the shell.
+root&gt; start shell Make a folder to mount your FAT16/32 USB drive, then mount it.
+root&gt; start shell root@:RE:0% mkdir /var/tmp/usb root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb Jump back to the CLI and install your new Junos.
+root&gt; start shell root@:RE:0% cli {master:0} root&gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.
+
+        <a href="/posts/junos-ex-switch-upgrade-via-usb/">Junos EX Switch Upgrade via USB full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/first-time-cacti-install-on-ubuntu-12.04/">First time Cacti install on Ubuntu 12.04</a>
+    </h3>
+
+    
+    
+
+      <p>
+        Networks are great when they work but when they don&rsquo;t, how do you know you&rsquo;ve fixed things properly? How are you going to be sure that everything is back to normal? You can do this with graphs and you can do it relatively cheaply with an application called Cacti. So today I&rsquo;m going to show you just how easy it is to get Cacti up and running on Ubuntu server. First you&rsquo;ll need to download Cacti from your local repository.
+
+        <a href="/posts/first-time-cacti-install-on-ubuntu-12.04/">First time Cacti install on Ubuntu 12.04 full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/posts/grass-roots-os/">Grass roots OS</a>
+    </h3>
+
+    
+    
+
+      <p>
+        I deal with a fair few vendor products on a daily basis so here&rsquo;s to list making.
+To be fair the Extreme switches aren&rsquo;t touched that much maybe because they&rsquo;re too Extreme but most likely because I don&rsquo;t deal with things connected to them.
+   Vendor Router OS Donor OS Donor OS Owner Donor OS Website     Juniper Networks Junos OS FreeBSD Internet Community freebsd   Juniper Networks Screen OS n/a  n/a   Cisco IOS-XR QNX QNX Software Systems QNX   Cisco IOS n/a Proprietary n/a   Cisco IOS-XE IOS, Linux Hybrid (ASR) n/a   Cisco Modular IOS IOS, QNX Hybrid (6500) n/a   Cisco NX-OS Linux Monta Vista mvista   Extreme ExtremeWARE Linux Internet Community xoslinux   Redback SEOS NetBSD Internet Community netbsd    Update: Since posting this, Juniper have release the QFX series which has Freebsd and Junos running within a VM that sits on top of Centos.
+
+        <a href="/posts/grass-roots-os/">Grass roots OS full article</a>
+      </p>
+  
+
+
+
+
+<p><a name="nav-menu" id="nav-menu"><strong>Site menu</strong></a></p>
+
+<ul>
+    
+    <li>
+      <a href="/">
+      
+      Home
+      </a>
+    </li>
+    
+    <li>
+      <a href="/posts/">
+      
+      Posts
+      </a>
+    </li>
+    
+</ul>
+
+<p><a href="#">Back to top</a></p>
+</body>
+</html>

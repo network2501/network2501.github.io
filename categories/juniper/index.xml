@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>juniper on Accessible Minimalism</title>
+    <link>http://network2501.github.io/categories/juniper/</link>
+    <description>Recent content in juniper on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Mon, 17 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/categories/juniper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vSRX as a router</title>
+      <link>http://network2501.github.io/posts/vsrx-as-a-router/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/vsrx-as-a-router/</guid>
+      <description>The SRX is a stateful firewall but I want to use the vSRX as a router for study. I intend to configure IPv6, MPLS and ISIS so a few changes need to be made.
+set security forwarding-options family inet6 mode packet-based set security forwarding-options family mpls mode packet-based set security forwarding-options family iso mode packet-based If the above wasn&amp;rsquo;t configured even with all the security configuration remove the stateful process of the firewall would drop traffic.</description>
+    </item>
+    
+    <item>
+      <title>Junos EX Switch Upgrade via USB</title>
+      <link>http://network2501.github.io/posts/junos-ex-switch-upgrade-via-usb/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/junos-ex-switch-upgrade-via-usb/</guid>
+      <description>I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.
+Jump into the shell.
+root&amp;gt; start shell Make a folder to mount your FAT16/32 USB drive, then mount it.
+root&amp;gt; start shell root@:RE:0% mkdir /var/tmp/usb root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb Jump back to the CLI and install your new Junos.
+root&amp;gt; start shell root@:RE:0% cli {master:0} root&amp;gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.</description>
+    </item>
+    
+  </channel>
+</rss>

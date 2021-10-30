@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>customisation on Accessible Minimalism</title>
+    <link>http://network2501.github.io/categories/customisation/</link>
+    <description>Recent content in customisation on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/categories/customisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hacked up Hugo theme</title>
+      <link>http://network2501.github.io/posts/hacked-up-hugo-theme/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/hacked-up-hugo-theme/</guid>
+      <description>This site currently uses the Hyde-X theme with some modifcations. After dabbling with CSS here&amp;rsquo;s a few changes I made to suit my wants and needs.
+ Sidebar and content background same colour Custom colour scheme highlightjs Gruvbox colour scheme Categories and Tags navigation pages (with links in side bar) Round avatar Reduce hight of post listing on main page  All these changes were organic as I learnt more about Hugo and CSS but I wanted to save the theme from my own mistakes.</description>
+    </item>
+    
+  </channel>
+</rss>

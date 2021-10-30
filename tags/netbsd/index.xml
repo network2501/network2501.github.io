@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netbsd on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/netbsd/</link>
+    <description>Recent content in netbsd on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 08 Aug 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/netbsd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grass roots OS</title>
+      <link>http://network2501.github.io/posts/grass-roots-os/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/grass-roots-os/</guid>
+      <description>I deal with a fair few vendor products on a daily basis so here&amp;rsquo;s to list making.
+To be fair the Extreme switches aren&amp;rsquo;t touched that much maybe because they&amp;rsquo;re too Extreme but most likely because I don&amp;rsquo;t deal with things connected to them.
+   Vendor Router OS Donor OS Donor OS Owner Donor OS Website     Juniper Networks Junos OS FreeBSD Internet Community freebsd   Juniper Networks Screen OS n/a  n/a   Cisco IOS-XR QNX QNX Software Systems QNX   Cisco IOS n/a Proprietary n/a   Cisco IOS-XE IOS, Linux Hybrid (ASR) n/a   Cisco Modular IOS IOS, QNX Hybrid (6500) n/a   Cisco NX-OS Linux Monta Vista mvista   Extreme ExtremeWARE Linux Internet Community xoslinux   Redback SEOS NetBSD Internet Community netbsd    Update: Since posting this, Juniper have release the QFX series which has Freebsd and Junos running within a VM that sits on top of Centos.</description>
+    </item>
+    
+  </channel>
+</rss>

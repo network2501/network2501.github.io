@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paste on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/paste/</link>
+    <description>Recent content in paste on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Mon, 07 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/paste/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alternative to right click paste</title>
+      <link>http://network2501.github.io/posts/alternative-to-right-click-paste/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/alternative-to-right-click-paste/</guid>
+      <description>Before computers were the norm people would literally cut out articles they wanted and paste them onto paper. For the newer generations this must sounds archaic but my first face swap was in grade 1 cutting out peoples faces from magazines and pasting them onto my own crayon drawn stick figures.
+For years I&amp;rsquo;d used teraterm or putty and later settled on SecureCRT as my terminal application of choice. Right click was my default method for pasting until a colleague accidentally misclicked and was stung by a copied line of &amp;ldquo;reload&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

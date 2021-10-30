@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphing on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/graphing/</link>
+    <description>Recent content in graphing on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 12 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/graphing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First time Cacti install on Ubuntu 12.04</title>
+      <link>http://network2501.github.io/posts/first-time-cacti-install-on-ubuntu-12.04/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/first-time-cacti-install-on-ubuntu-12.04/</guid>
+      <description>Networks are great when they work but when they don&amp;rsquo;t, how do you know you&amp;rsquo;ve fixed things properly? How are you going to be sure that everything is back to normal? You can do this with graphs and you can do it relatively cheaply with an application called Cacti. So today I&amp;rsquo;m going to show you just how easy it is to get Cacti up and running on Ubuntu server. First you&amp;rsquo;ll need to download Cacti from your local repository.</description>
+    </item>
+    
+  </channel>
+</rss>

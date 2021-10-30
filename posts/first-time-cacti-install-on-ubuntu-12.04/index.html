@@ -35,7 +35,7 @@
 
 
 <p>Networks are great when they work but when they don&rsquo;t, how do you know you&rsquo;ve fixed things properly? How are you going to be sure that everything is back to normal? You can do this with graphs and you can do it relatively cheaply with an application called <a href="http://www.cacti.net/" title="Cacti">Cacti</a>. So today I&rsquo;m going to show you just how easy it is to get Cacti up and running on Ubuntu server. First you&rsquo;ll need to download Cacti from your local repository.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pete@ubuntu:~$ sudo apt-get install cacti <span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> password <span style="color:#66d9ef">for</span> pete:</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pete@ubuntu:~$ sudo apt-get install cacti <span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> password <span style="color:#66d9ef">for</span> pete:</code></pre></div>
 <p>Cacti does require a database but don&rsquo;t let that scare you off. The first prompt during the installation process is to choose whether you set one up your self or alternatively (what I do for home) let dbconfig-common take care of the heavy work.</p>
 <p><img src="http://blog.network2501.com/images/01-configure-databse-768x337.png" alt="01 configure databse"></p>
 <p>Creating a database for cacti doesn&rsquo;t take long and you&rsquo;ll be quickly prompted to enter an admin password for the newly created MySQL database. In a production environment this password would likely need to be super strong but this is my home box so I&rsquo;ll admit I&rsquo;m pretty lax.</p>
@@ -47,7 +47,7 @@
 <p>You&rsquo;ve created all your accounts, now it&rsquo;s time to install a web server so you can get to your Cacti front page. I&rsquo;ve used Apache2 in the past and it just worked so that&rsquo;s my go to default web server but if you have a preference then by all means use what you&rsquo;re most comfortable with.</p>
 <p><img src="http://blog.network2501.com/images/05-cacti-steps.png" alt="05 cacti steps"></p>
 <p>That&rsquo;s the last of the prompts and by the end of it you&rsquo;ll be left with a CLI that looks something like this.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pete@ubuntu:~$ sudo apt-get install cacti
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pete@ubuntu:~$ sudo apt-get install cacti
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done

@@ -36,13 +36,13 @@
 
 <p>I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.</p>
 <p>Jump into the shell.</p>
-<pre><code class="language-Junos" data-lang="Junos">root&gt; start shell</code></pre>
+<pre tabindex="0"><code class="language-Junos" data-lang="Junos">root&gt; start shell</code></pre>
 <p>Make a folder to mount your FAT16/32 USB drive, then mount it.</p>
-<pre><code class="language-Junos" data-lang="Junos">root&gt; start shell
+<pre tabindex="0"><code class="language-Junos" data-lang="Junos">root&gt; start shell
 root@:RE:0% mkdir /var/tmp/usb 
 root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb</code></pre>
 <p>Jump back to the CLI and install your new Junos.</p>
-<pre><code class="language-Junos" data-lang="Junos">root&gt; start shell
+<pre tabindex="0"><code class="language-Junos" data-lang="Junos">root&gt; start shell
 root@:RE:0% cli {master:0} root&gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.3R3.4-domestic-signed.tgz validate reboot</code></pre>
 <p>If you&rsquo;re not upgrading from a version prior to 10.4R2 that&rsquo;s all there is to it. However a boot loader upgrade is required for EX devices when upgrading from Junos version 10.4R2 or earlier.</p>
 <p><img src="http://blog.network2501.com/images/ex2200c.jpg" alt="ex2200c"></p>

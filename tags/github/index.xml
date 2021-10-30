@@ -6,11 +6,7 @@
     <description>Recent content in github on network2501</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://network2501.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://network2501.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hacked up Hugo theme</title>
       <link>http://network2501.github.io/posts/hacked-up-hugo-theme/</link>

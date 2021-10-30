@@ -6,11 +6,7 @@
     <description>Recent content in dscp on network2501</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 11 May 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://network2501.github.io/tags/dscp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 11 May 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://network2501.github.io/tags/dscp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QoS Calculator</title>
       <link>http://network2501.github.io/posts/qos-calculator/</link>

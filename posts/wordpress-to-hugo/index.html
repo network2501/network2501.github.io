@@ -41,20 +41,20 @@
 </blockquote>
 <p>The biggest selling point for me was Hugo is single blob with no external dependencies.</p>
 <p>Setup was easy. Old posts were converted to markdown files. Some content was cut but the old <a href="https://project0x9c5.wordpress.com/">wordpress</a> site is still available. <a href="https://gohugo.io/overview/quickstart/">Installation</a> was super quick but there&rsquo;s a few gotchas.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install go
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pkg install go
 mkdir ~/go
 echo <span style="color:#e6db74">&#39;export GOPATH=$HOME/go&#39;</span> &gt; .zshrc
 echo <span style="color:#e6db74">&#39;export PATH=$PATH:$GOPATH/bin&#39;</span> &gt; .zshrc
 go get -v github.com/spf13/hugo</code></pre></div>
 <p>With Hugo installed I simply created a new site directory and move my converted posts into $your-blog/content.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site your-blog
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site your-blog
 hugo new post/wordpress-to-hugo.md</code></pre></div>
 <p>Hugo doesn&rsquo;t ship with a default <a href="http://themes.gohugo.io/">theme</a> so you&rsquo;ll need to grab one before generating any content.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir ~/your-blog/themes
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir ~/your-blog/themes
 cd ~/your-blog/themes
 git clone https://github.com/crakjie/hugo-base-theme.git</code></pre></div>
 <p>You can serve Hugo sites locally or simply run the command to generate site content.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gibson% hugo server --theme<span style="color:#f92672">=</span>hugo-base-theme
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gibson% hugo server --theme<span style="color:#f92672">=</span>hugo-base-theme
 Started building site
 <span style="color:#ae81ff">0</span> of <span style="color:#ae81ff">1</span> draft rendered
 <span style="color:#ae81ff">0</span> future content
@@ -88,7 +88,7 @@ in <span style="color:#ae81ff">65</span> ms</code></pre></div>
 <li>Redirect DNS to the S3 bucket URL.</li>
 <li>Upload your files using the Java GUI or <a href="http://s3tools.org/s3cmd">s3cmd</a>.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">s3cmd put -P --recursive /home/zerocool/your-blog/public/ s3://your-site-url.com</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">s3cmd put -P --recursive /home/zerocool/your-blog/public/ s3://your-site-url.com</code></pre></div>
 <p>Hugo works for me. The process of writing markdown using vim enjoyable and distraction free. The next challenge is automating the publishing process.</p>
 
 

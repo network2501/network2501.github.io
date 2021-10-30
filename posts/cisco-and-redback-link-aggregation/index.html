@@ -36,7 +36,7 @@
 
 <p>Aggregating links is a normal task of any networker. Here&rsquo;s how you can aggregate 4 links between a Redback SEOS and Cisco IOS device.</p>
 <p><img src="http://blog.network2501.com/images/redback-to-cisco.png" alt="redback to cisco"></p>
-<pre><code class="language-IOS" data-lang="IOS">config t
+<pre tabindex="0"><code class="language-IOS" data-lang="IOS">config t
 
 interface GigabitEthernet1/1
 description Po1 - redback01:1/1
@@ -59,7 +59,7 @@ description 4Gbps LAG redback01:lg-cisco01
 ip address 192.168.1.2 255.255.255.254
 end </code></pre>
 <p>The Redback configuration is a little bit different which makes more sense when you start to delve into the BNG or mutliple context options.</p>
-<pre><code class="language-IOS" data-lang="IOS">port 1/1
+<pre tabindex="0"><code class="language-IOS" data-lang="IOS">port 1/1
  link-group lg-cisco01
  no shut
 port 1/2

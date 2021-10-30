@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/</link>
+    <description>Recent content in Tags on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>css</title>
+      <link>http://network2501.github.io/tags/css/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>customisation</title>
+      <link>http://network2501.github.io/tags/customisation/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/customisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>http://network2501.github.io/tags/github/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://network2501.github.io/tags/hugo/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>http://network2501.github.io/tags/theme/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>http://network2501.github.io/tags/writing/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>http://network2501.github.io/tags/aws/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://network2501.github.io/tags/git/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>http://network2501.github.io/tags/s3/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>http://network2501.github.io/tags/wordpress/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cisco</title>
+      <link>http://network2501.github.io/tags/cisco/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>http://network2501.github.io/tags/ios/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>link aggregation</title>
+      <link>http://network2501.github.io/tags/link-aggregation/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/link-aggregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redback</title>
+      <link>http://network2501.github.io/tags/redback/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/redback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seos</title>
+      <link>http://network2501.github.io/tags/seos/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/seos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cos</title>
+      <link>http://network2501.github.io/tags/cos/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/cos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dscp</title>
+      <link>http://network2501.github.io/tags/dscp/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/dscp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qos</title>
+      <link>http://network2501.github.io/tags/qos/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/qos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>table</title>
+      <link>http://network2501.github.io/tags/table/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tos</title>
+      <link>http://network2501.github.io/tags/tos/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/tos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>copy</title>
+      <link>http://network2501.github.io/tags/copy/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cut</title>
+      <link>http://network2501.github.io/tags/cut/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/cut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paste</title>
+      <link>http://network2501.github.io/tags/paste/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/paste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stdin</title>
+      <link>http://network2501.github.io/tags/stdin/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/stdin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>http://network2501.github.io/tags/terminal/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EX2200c</title>
+      <link>http://network2501.github.io/tags/ex2200c/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/ex2200c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>http://network2501.github.io/tags/howto/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juniper</title>
+      <link>http://network2501.github.io/tags/juniper/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/juniper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>junos</title>
+      <link>http://network2501.github.io/tags/junos/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/junos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>upgrade</title>
+      <link>http://network2501.github.io/tags/upgrade/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/upgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cacti</title>
+      <link>http://network2501.github.io/tags/cacti/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/cacti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphing</title>
+      <link>http://network2501.github.io/tags/graphing/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/graphing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>http://network2501.github.io/tags/monitoring/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>http://network2501.github.io/tags/ubuntu/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extreme</title>
+      <link>http://network2501.github.io/tags/extreme/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/extreme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freebsd</title>
+      <link>http://network2501.github.io/tags/freebsd/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mvista</title>
+      <link>http://network2501.github.io/tags/mvista/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/mvista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netbsd</title>
+      <link>http://network2501.github.io/tags/netbsd/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/netbsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qnx</title>
+      <link>http://network2501.github.io/tags/qnx/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/qnx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xoslinux</title>
+      <link>http://network2501.github.io/tags/xoslinux/</link>
+      <pubDate>Wed, 08 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/xoslinux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

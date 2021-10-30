@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-au" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="alternate" type="application/rss+xml" href="http://network2501.github.io/tags/juniper/index.xml" title="Accessible Minimalism" />
+    
+    
+    <title>Accessible Minimalism | juniper</title>
+    <style type="text/css">
+  body {
+    font-size: 150%;
+    font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+</style>
+
+</head>
+<body><p><a href="#nav-menu">Menu</a></p>
+
+
+
+
+<h1>juniper</h1>
+
+
+
+    <h3>
+      <a href="/post/junos-ex-switch-upgrade-via-usb/">Junos EX Switch Upgrade via USB</a>
+    </h3>
+
+    
+    
+
+      <p>
+        I have a Juniper EX2200c switch that needs upgrading. So here goes the quick and dirty run down.
+Jump into the shell.
+root&gt; start shell Make a folder to mount your FAT16/32 USB drive, then mount it.
+root&gt; start shell root@:RE:0% mkdir /var/tmp/usb root@:RE:0% mount -t msdosfs /dev/da1s1 /var/tmp/usb Jump back to the CLI and install your new Junos.
+root&gt; start shell root@:RE:0% cli {master:0} root&gt; request system software add /var/tmp/usb/jinstall-ex-2200-12.
+
+        <a href="/post/junos-ex-switch-upgrade-via-usb/">Junos EX Switch Upgrade via USB full article</a>
+      </p>
+  
+
+
+
+
+    <h3>
+      <a href="/post/grass-roots-os/">Grass roots OS</a>
+    </h3>
+
+    
+    
+
+      <p>
+        I deal with a fair few vendor products on a daily basis so here&rsquo;s to list making.
+To be fair the Extreme switches aren&rsquo;t touched that much maybe because they&rsquo;re too Extreme but most likely because I don&rsquo;t deal with things connected to them.
+   Vendor Router OS Donor OS Donor OS Owner Donor OS Website     Juniper Networks Junos OS FreeBSD Internet Community freebsd   Juniper Networks Screen OS n/a  n/a   Cisco IOS-XR QNX QNX Software Systems QNX   Cisco IOS n/a Proprietary n/a   Cisco IOS-XE IOS, Linux Hybrid (ASR) n/a   Cisco Modular IOS IOS, QNX Hybrid (6500) n/a   Cisco NX-OS Linux Monta Vista mvista   Extreme ExtremeWARE Linux Internet Community xoslinux   Redback SEOS NetBSD Internet Community netbsd    Update: Since posting this, Juniper have release the QFX series which has Freebsd and Junos running within a VM that sits on top of Centos.
+
+        <a href="/post/grass-roots-os/">Grass roots OS full article</a>
+      </p>
+  
+
+
+
+
+<p><a name="nav-menu" id="nav-menu"><strong>Site menu</strong></a></p>
+
+<ul>
+    
+    <li>
+      <a href="/">
+      
+      Home
+      </a>
+    </li>
+    
+    <li>
+      <a href="/posts/">
+      
+      Posts
+      </a>
+    </li>
+    
+</ul>
+
+<p><a href="#">Back to top</a></p>
+</body>
+</html>

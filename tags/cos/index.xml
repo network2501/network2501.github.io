@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cos on Accessible Minimalism</title>
+    <link>http://network2501.github.io/tags/cos/</link>
+    <description>Recent content in cos on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Sun, 11 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/tags/cos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>QoS Calculator</title>
+      <link>http://network2501.github.io/post/qos-calculator/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/post/qos-calculator/</guid>
+      <description>A while back I was dealing with QoS topics on an almost daily basis. A big thanks to NetContractor for this table but it needed some tweaks.
+Change requirements;
+ Larger QoS range Column for product reference Scalable printing size  Sadly WordPress doesn&amp;rsquo;t support SVG files natively so a jpg preview will have to make do. Download the friendly A3 pdf here or grab the excel file here to customise your own QoS calculator.</description>
+    </item>
+    
+    <item>
+      <title>vSRX as a router</title>
+      <link>http://network2501.github.io/post/vsrx-as-a-router/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/post/vsrx-as-a-router/</guid>
+      <description>The SRX is a stateful firewall but I want to use the vSRX as a router for study. I intend to configure IPv6, MPLS and ISIS so a few changes need to be made.
+set security forwarding-options family inet6 mode packet-based set security forwarding-options family mpls mode packet-based set security forwarding-options family iso mode packet-based If the above wasn&amp;rsquo;t configured even with all the security configuration remove the stateful process of the firewall would drop traffic.</description>
+    </item>
+    
+  </channel>
+</rss>

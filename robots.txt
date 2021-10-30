@@ -1,0 +1,3 @@
+User-agent: *
+
+http://network2501.github.io/sitemap.xml

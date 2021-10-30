@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Accessible Minimalism</title>
+    <link>http://network2501.github.io/categories/</link>
+    <description>Recent content in Categories on Accessible Minimalism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://network2501.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>customisation</title>
+      <link>http://network2501.github.io/categories/customisation/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/customisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>http://network2501.github.io/categories/writing/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cisco</title>
+      <link>http://network2501.github.io/categories/cisco/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redback</title>
+      <link>http://network2501.github.io/categories/redback/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/redback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qos</title>
+      <link>http://network2501.github.io/categories/qos/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/qos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fragment</title>
+      <link>http://network2501.github.io/categories/fragment/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/fragment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juniper</title>
+      <link>http://network2501.github.io/categories/juniper/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/juniper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>http://network2501.github.io/categories/monitoring/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/categories/monitoring/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,6 +7,3 @@
 [submodule "themes/sk1"]
 	path = themes/sk1
 	url = https://github.com/J-Siu/hugo-theme-sk1
-[submodule "themes/themes/minimal-bootstrap-hugo-theme"]
-	path = themes/themes/minimal-bootstrap-hugo-theme
-	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git

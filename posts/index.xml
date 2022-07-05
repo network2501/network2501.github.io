@@ -24,5 +24,14 @@
       <description>I&amp;rsquo;m using pipenv with a headless selenium configuration but was getting PATH errors.</description>
     </item>
     
+    <item>
+      <title>Resiszing Ubuntu logical volume</title>
+      <link>http://network2501.github.io/posts/resizing-ubuntu-logical-volume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/posts/resizing-ubuntu-logical-volume/</guid>
+      <description>Resizing a logical volume on Ubuntu.</description>
+    </item>
+    
   </channel>
 </rss>

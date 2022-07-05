@@ -1,4 +1,8 @@
-+++ date = "2022-07-05-01T00:00:00+00:00" draft = false title = "Resiszing Ubuntu logical volume" slug = "resizing-ubuntu-logical-volume" +++
++++ 
+date = "2022-07-05-01T00:00:00+00:00" 
+draft = false title = "Resiszing Ubuntu logical volume" 
+slug = "resizing-ubuntu-logical-volume" 
++++
 
 Resizing a logical volume on Ubuntu. 
 

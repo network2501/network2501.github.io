@@ -5,7 +5,7 @@ title = "Resiszing Ubuntu logical volume"
 slug = "resizing-ubuntu-logical-volume" 
 +++
 
-Resizing a logical volume on Ubuntu. 
+TESTING Resizing a logical volume on Ubuntu. 
 
 ```
 sudo lsblk

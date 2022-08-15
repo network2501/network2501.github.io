@@ -8,28 +8,28 @@
     <language>en-au</language><atom:link href="http://network2501.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://network2501.github.io/posts/readme/</link>
+      <link>http://network2501.github.io/1/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://network2501.github.io/posts/readme/</guid>
+      <guid>http://network2501.github.io/1/01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Headless Selenium with Firefox and GeckoDriver</title>
-      <link>http://network2501.github.io/posts/headless-selenium-with-firefox-and-geckodriver/</link>
+      <link>http://network2501.github.io/1/01/headless-selenium-with-firefox-and-geckodriver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://network2501.github.io/posts/headless-selenium-with-firefox-and-geckodriver/</guid>
+      <guid>http://network2501.github.io/1/01/headless-selenium-with-firefox-and-geckodriver/</guid>
       <description>I&amp;rsquo;m using pipenv with a headless selenium configuration but was getting PATH errors.</description>
     </item>
     
     <item>
       <title>Resiszing Ubuntu logical volume</title>
-      <link>http://network2501.github.io/posts/resizing-ubuntu-logical-volume/</link>
+      <link>http://network2501.github.io/1/01/resiszing-ubuntu-logical-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://network2501.github.io/posts/resizing-ubuntu-logical-volume/</guid>
+      <guid>http://network2501.github.io/1/01/resiszing-ubuntu-logical-volume/</guid>
       <description>Resizing a logical volume on Ubuntu.</description>
     </item>
     

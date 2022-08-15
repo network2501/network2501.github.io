@@ -2,15 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://network2501.github.io/2022/03/headless-selenium-with-firefox-and-geckodriver/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://network2501.github.io/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://network2501.github.io/posts/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://network2501.github.io/1/01/</loc>
   </url><url>
     <loc>http://network2501.github.io/categories/</loc>
-  </url><url>
-    <loc>http://network2501.github.io/1/01/headless-selenium-with-firefox-and-geckodriver/</loc>
-  </url><url>
-    <loc>http://network2501.github.io/</loc>
-  </url><url>
-    <loc>http://network2501.github.io/posts/</loc>
   </url><url>
     <loc>http://network2501.github.io/1/01/resiszing-ubuntu-logical-volume/</loc>
   </url><url>

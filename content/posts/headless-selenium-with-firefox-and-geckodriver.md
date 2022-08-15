@@ -1,5 +1,5 @@
 +++
-date = "2022-03-27-01T00:00:00+00:00"
+date = "2022-03-27-01"
 draft = false
 title = "Headless Selenium with Firefox and GeckoDriver"
 slug = "headless-selenium-with-firefox-and-geckodriver"

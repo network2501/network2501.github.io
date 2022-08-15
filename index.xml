@@ -6,7 +6,16 @@
     <description>Recent content on network2501</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://network2501.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://network2501.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resiszing Ubuntu logical volume</title>
+      <link>http://network2501.github.io/2022/07/resiszing-ubuntu-logical-volume/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/2022/07/resiszing-ubuntu-logical-volume/</guid>
+      <description>Resizing a logical volume on Ubuntu.</description>
+    </item>
+    
     <item>
       <title>Headless Selenium with Firefox and GeckoDriver</title>
       <link>http://network2501.github.io/2022/03/headless-selenium-with-firefox-and-geckodriver/</link>
@@ -23,15 +32,6 @@
       
       <guid>http://network2501.github.io/1/01/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Resiszing Ubuntu logical volume</title>
-      <link>http://network2501.github.io/1/01/resiszing-ubuntu-logical-volume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://network2501.github.io/1/01/resiszing-ubuntu-logical-volume/</guid>
-      <description>Resizing a logical volume on Ubuntu.</description>
     </item>
     
   </channel>

@@ -2,10 +2,11 @@ baseURL = "http://network2501.github.io/"
 languageCode = "en-au"
 title = "network2501"
 theme = "accessible-minimalism"
+summaryLength = 0
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
-summaryLength = 0
-
+[permalinks]
+  posts = '/:year/:month/:title/'
 [menu]
   [[menu.main]]
     name = "Home"

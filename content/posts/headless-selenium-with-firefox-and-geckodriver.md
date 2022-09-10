@@ -3,6 +3,7 @@ date = "2022-03-27T00:00:00+00:00"
 draft = false
 title = "Headless Selenium with Firefox and GeckoDriver"
 slug = "headless-selenium-with-firefox-and-geckodriver"
+tags = ['selenium','webdriver','firefox']
 +++
 
 

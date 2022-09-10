@@ -1,7 +1,7 @@
 baseURL = "http://network2501.github.io/"
 languageCode = "en-au"
 title = "network2501"
-theme = " accessible-minimalism-hugo-theme"
+theme = " accessible-minimalism"
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
 summaryLength = 1

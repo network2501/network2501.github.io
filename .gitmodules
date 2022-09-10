@@ -10,3 +10,6 @@
 [submodule "themes/minimal-bootstrap-hugo-theme"]
 	path = themes/minimal-bootstrap-hugo-theme
 	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
+[submodule "themes/accessible-minimalism-hugo-theme"]
+	path = themes/accessible-minimalism-hugo-theme
+	url = https://github.com/network2501/accessible-minimalism-hugo-theme

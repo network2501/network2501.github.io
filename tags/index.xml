@@ -5,6 +5,25 @@
     <link>http://network2501.github.io/tags/</link>
     <description>Recent content in Tags on network2501</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="http://network2501.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language>
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://network2501.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>storage</title>
+      <link>http://network2501.github.io/tags/storage/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>http://network2501.github.io/tags/ubuntu/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://network2501.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

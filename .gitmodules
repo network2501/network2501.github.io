@@ -1,12 +1,9 @@
-[submodule "themes/themes/accessible-minimalism"]
-	path = themes/themes/accessible-minimalism
-	url = https://github.com/leonstafford/accessible-minimalism-hugo-theme
 [submodule "themes/sk1"]
-	path = themes/sk1
-	url = https://github.com/J-Siu/hugo-theme-sk1
+    path = themes/sk1
+    url = https://github.com/J-Siu/hugo-theme-sk1
 [submodule "themes/minimal-bootstrap-hugo-theme"]
-	path = themes/minimal-bootstrap-hugo-theme
-	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
+    path = themes/minimal-bootstrap-hugo-theme
+    url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
 [submodule "themes/accessible-minimalism-hugo-theme"]
-	path = themes/accessible-minimalism-hugo-theme
-	url = https://github.com/network2501/accessible-minimalism-hugo-theme
+    path = themes/accessible-minimalism-hugo-theme
+    url = https://github.com/network2501/accessible-minimalism-hugo-theme
